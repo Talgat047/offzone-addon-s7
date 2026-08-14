@@ -247,25 +247,25 @@
 			)
 			)
 		)
-		(symbol "Timer:TLC555xx"
+		(symbol "Timer:LMC555xx"
 			(pin_names (offset 1.016))
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U" (at -7.62 9.525 0) (effects (font (size 1.27 1.27))))
-			(property "Value" "TLC555" (at 1.27 9.525 0) (effects (font (size 1.27 1.27))))
+			(property "Value" "LMC555" (at 1.27 9.525 0) (effects (font (size 1.27 1.27))))
 			(property "Footprint" "" (at 0 -17.78 0) (effects (font (size 1.27 1.27)) hide))
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlc555.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-			(property "Description" "CMOS 555 timer, 2..15 V supply" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmc555.pdf" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
+			(property "Description" "CMOS 555 timer, 1.5..15 V supply" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 			(property "ki_keywords" "555 timer oscillator CMOS" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
 			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm*" (at 0 0 0) (effects (font (size 1.27 1.27)) hide))
-			(symbol "TLC555xx_0_1"
+			(symbol "LMC555xx_0_1"
 				(rectangle (start -7.62 7.62) (end 7.62 -7.62)
 					(stroke (width 0.254) (type default))
 					(fill (type background))
 				)
 			)
-			(symbol "TLC555xx_1_1"
+			(symbol "LMC555xx_1_1"
 			(pin power_in line (at 0 12.7 270) (length 5.08)
 				(name "VCC" (effects (font (size 1.27 1.27))))
 				(number "8" (effects (font (size 1.27 1.27))))
@@ -584,7 +584,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Timer:TLC555xx")
+		(lib_id "Timer:LMC555xx")
 		(at 63.5 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -593,7 +593,7 @@
 		(dnp no)
 		(uuid "d5aef654-8966-5bf1-b2e7-baffd6beb693")
 		(property "Reference" "U1" (at 55.88 36.83 0) (effects (font (size 1.27 1.27)) (justify left)))
-		(property "Value" "TLC555" (at 67.31 36.83 0) (effects (font (size 1.27 1.27)) (justify left)))
+		(property "Value" "LMC555" (at 67.31 36.83 0) (effects (font (size 1.27 1.27)) (justify left)))
 		(property "Footprint" "" (at 63.5 46.99 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Datasheet" "~" (at 63.5 46.99 0) (effects (font (size 1.27 1.27)) hide))
 		(property "Description" "" (at 63.5 46.99 0) (effects (font (size 1.27 1.27)) hide))
